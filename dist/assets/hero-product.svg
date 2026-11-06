@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="backdrop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a2a4a"/>
+      <stop offset="50%" stop-color="#0a1530"/>
+      <stop offset="100%" stop-color="#020610"/>
+    </linearGradient>
+    <radialGradient id="floorLight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(120,180,255,0.4)"/>
+      <stop offset="100%" stop-color="rgba(120,180,255,0)"/>
+    </radialGradient>
+    <radialGradient id="keyLight" cx="50%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.3)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </radialGradient>
+    <radialGradient id="rimBack" cx="50%" cy="60%" r="50%">
+      <stop offset="0%" stop-color="rgba(220,40,80,0.25)"/>
+      <stop offset="100%" stop-color="rgba(220,40,80,0)"/>
+    </radialGradient>
+    <clipPath id="canClip">
+      <path d="M 350 260 Q 350 175 600 175 Q 850 175 850 260 L 850 1370 Q 850 1440 600 1440 Q 350 1440 350 1370 Z"/>
+    </clipPath>
+    <radialGradient id="topLid" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#f8f8fb"/>
+      <stop offset="55%" stop-color="#bcbcc4"/>
+      <stop offset="100%" stop-color="#6a6a72"/>
+    </radialGradient>
+    <filter id="dropShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#backdrop)"/>
+  <rect width="1200" height="1500" fill="url(#rimBack)"/>
+  <ellipse cx="600" cy="1430" rx="500" ry="120" fill="url(#floorLight)"/>
+  <rect width="1200" height="1500" fill="url(#keyLight)"/>
+  <ellipse cx="600" cy="1480" rx="320" ry="32" fill="#000000" opacity="0.7" filter="url(#dropShadow)"/>
+  <g clip-path="url(#canClip)">
+    <rect x="350" y="175" width="500" height="1315" fill="#111111"/>
+  </g>
+  <g>
+    <ellipse cx="600" cy="263" rx="250" ry="22" fill="#9a9aa4"/>
+    <ellipse cx="600" cy="259" rx="244" ry="14" fill="#e8e8ec"/>
+    <ellipse cx="600" cy="255" rx="238" ry="9" fill="#7a7a82"/>
+  </g>
+  <g>
+    <ellipse cx="600" cy="245" rx="230" ry="16" fill="url(#topLid)"/>
+    <ellipse cx="600" cy="245" rx="208" ry="10" fill="none" stroke="#9a9aa4" stroke-width="1.2" opacity="0.7"/>
+    <circle cx="480" cy="245" r="5" fill="#5a5a62"/>
+    <circle cx="480" cy="244" r="3.5" fill="#bcbcc4"/>
+  </g>
+  <g transform="translate(480 241)">
+    <ellipse cx="60" cy="6" rx="58" ry="5" fill="rgba(0,0,0,0.45)"/>
+    <path d="M 0 -2 Q 8 -10 60 -10 Q 110 -10 118 -2 Q 120 2 116 6 L 60 6 L 4 6 Q -2 4 0 -2 Z" fill="#d0d0d8" stroke="#6a6a72" stroke-width="0.8"/>
+    <ellipse cx="86" cy="-2" rx="6" ry="3" fill="#3a3a44"/>
+    <path d="M 8 -6 Q 60 -10 110 -6" stroke="rgba(255,255,255,0.5)" stroke-width="0.8" fill="none"/>
+  </g>
+  <g>
+    <ellipse cx="600" cy="1445" rx="240" ry="8" fill="#909098"/>
+    <ellipse cx="600" cy="1443" rx="228" ry="5" fill="#bcbcc4"/>
+    <ellipse cx="600" cy="1442" rx="216" ry="3" fill="#6a6a72"/>
+  </g>
+  <g>
+    <ellipse cx="600" cy="1458" rx="180" ry="6" fill="#3a3a44"/>
+    <ellipse cx="600" cy="1458" rx="120" ry="3" fill="#1a1a22"/>
+  </g>
+  <g clip-path="url(#canClip)">
+    <text x="600" y="400" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="600" font-size="32" fill="#D72E4E" letter-spacing="10">HYDRATE. FUEL. ELEVATE.</text>
+    <text x="600" y="560" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="900" font-size="240" fill="#ffffff" letter-spacing="-8">RISE</text>
+    <text x="600" y="640" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="300" font-size="36" fill="#ffffff" opacity="0.7" letter-spacing="18">HYDRATION</text>
+    <line x1="360" y1="700" x2="500" y2="700" stroke="#ffffff" stroke-width="1.5" opacity="0.25"/>
+    <circle cx="560" cy="700" r="3" fill="#D72E4E" opacity="0.9"/>
+    <circle cx="600" cy="700" r="4.5" fill="#D72E4E"/>
+    <circle cx="640" cy="700" r="3" fill="#D72E4E" opacity="0.9"/>
+    <line x1="700" y1="700" x2="840" y2="700" stroke="#ffffff" stroke-width="1.5" opacity="0.25"/>
+    <text x="600" y="830" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="900" font-size="120" fill="#D72E4E" letter-spacing="3">BERRY</text>
+    <text x="600" y="895" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="400" font-size="28" fill="#ffffff" opacity="0.75" letter-spacing="7">Acai · Blueberry · Pomegranate</text>
+    <g transform="translate(600 980)">
+      <circle cx="-120" cy="0" r="20" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.3"/>
+      <path d="M-120-7 Q-120-20 -112-20 Q-104-20 -104-7 Q-104 6 -112 14" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.5"/>
+      <text x="0" y="42" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="500" font-size="20" fill="#ffffff" opacity="0.6" letter-spacing="4">ELECTROLYTES</text>
+      <circle cx="0" cy="0" r="20" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.3"/>
+      <path d="M-8-14 L8-3 L0-3 L8 14" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.5"/>
+      <text x="0" y="42" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="500" font-size="20" fill="#ffffff" opacity="0.6" letter-spacing="4" transform="translate(120,0)">ENERGY</text>
+      <circle cx="120" cy="0" r="20" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.3"/>
+      <path d="M-8-14 L8-14 L8-3 L-8-3 L-8 8 L8 8" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.5"/>
+      <text x="0" y="42" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="500" font-size="20" fill="#ffffff" opacity="0.6" letter-spacing="4" transform="translate(240,0)">VITAMINS</text>
+    </g>
+    <text x="600" y="1100" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="26" fill="#ffffff" opacity="0.85" letter-spacing="4">NO SUGAR  ·  NO CRASH</text>
+    <text x="600" y="1170" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#ffffff" opacity="0.5" letter-spacing="3">12 FL OZ (355 ML)</text>
+    <text x="600" y="1310" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="26" fill="#ffffff" opacity="0.95" letter-spacing="8">ELECTROLYTES · VITAMINS</text>
+    <text x="600" y="1350" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#ffffff" opacity="0.7" letter-spacing="4">ZERO SUGAR · 250 ML · NATURAL</text>
+  </g>
+  <g clip-path="url(#canClip)">
+    <g fill="rgba(255,255,255,0.4)">
+      <ellipse cx="430" cy="350" rx="3" ry="6"/>
+      <ellipse cx="450" cy="500" rx="2" ry="4"/>
+      <ellipse cx="425" cy="650" rx="4" ry="7"/>
+      <ellipse cx="440" cy="800" rx="2" ry="5"/>
+      <ellipse cx="430" cy="950" rx="3" ry="6"/>
+      <ellipse cx="455" cy="1100" rx="2" ry="4"/>
+      <ellipse cx="745" cy="400" rx="2" ry="4"/>
+      <ellipse cx="755" cy="600" rx="3" ry="5"/>
+      <ellipse cx="740" cy="850" rx="2" ry="4"/>
+      <ellipse cx="760" cy="1050" rx="3" ry="5"/>
+      <ellipse cx="470" cy="1200" rx="3" ry="5"/>
+      <ellipse cx="730" cy="1200" rx="2" ry="4"/>
+    </g>
+    <g fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1">
+      <ellipse cx="430" cy="350" rx="6" ry="10"/>
+      <ellipse cx="425" cy="650" rx="8" ry="12"/>
+      <ellipse cx="440" cy="800" rx="5" ry="9"/>
+      <ellipse cx="430" cy="950" rx="6" ry="10"/>
+      <ellipse cx="755" cy="600" rx="6" ry="10"/>
+      <ellipse cx="470" cy="1200" rx="6" ry="9"/>
+    </g>
+  </g>
+  <g opacity="0.4">
+    <circle cx="200" cy="400" r="8" fill="rgba(255,255,255,0.6)"/>
+    <circle cx="300" cy="200" r="4" fill="rgba(255,255,255,0.4)"/>
+    <circle cx="950" cy="300" r="6" fill="rgba(255,255,255,0.5)"/>
+    <circle cx="1000" cy="500" r="3" fill="rgba(255,255,255,0.4)"/>
+    <circle cx="180" cy="700" r="5" fill="rgba(255,255,255,0.5)"/>
+    <circle cx="1020" cy="800" r="4" fill="rgba(255,255,255,0.4)"/>
+    <circle cx="250" cy="1000" r="6" fill="rgba(255,255,255,0.5)"/>
+    <circle cx="980" cy="1100" r="5" fill="rgba(255,255,255,0.4)"/>
+    <circle cx="150" cy="1200" r="3" fill="rgba(255,255,255,0.4)"/>
+    <circle cx="1050" cy="1250" r="4" fill="rgba(255,255,255,0.5)"/>
+  </g>
+</svg>

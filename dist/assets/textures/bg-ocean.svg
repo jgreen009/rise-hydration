@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="bg1" cx="30%" cy="40%" r="80%">
+      <stop offset="0%" stop-color="#1a3a6c"/>
+      <stop offset="50%" stop-color="#0a1830"/>
+      <stop offset="100%" stop-color="#020610"/>
+    </radialGradient>
+    <radialGradient id="glow1" cx="70%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="rgba(80,180,255,0.3)"/>
+      <stop offset="100%" stop-color="rgba(80,180,255,0)"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="20%" cy="80%" r="40%">
+      <stop offset="0%" stop-color="rgba(200,80,255,0.2)"/>
+      <stop offset="100%" stop-color="rgba(200,80,255,0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg1)"/>
+  <rect width="1920" height="1080" fill="url(#glow1)"/>
+  <rect width="1920" height="1080" fill="url(#glow2)"/>
+  <g opacity="0.15" stroke="rgba(255,255,255,0.3)" fill="none" stroke-width="1">
+    <path d="M 0 200 Q 480 150 960 220 T 1920 200"/>
+    <path d="M 0 400 Q 480 350 960 420 T 1920 400"/>
+    <path d="M 0 600 Q 480 550 960 620 T 1920 600"/>
+    <path d="M 0 800 Q 480 750 960 820 T 1920 800"/>
+  </g>
+</svg>

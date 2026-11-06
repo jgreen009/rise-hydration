@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="mangoGrad" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffd060"/>
+      <stop offset="50%" stop-color="#ffa830"/>
+      <stop offset="100%" stop-color="#ff7e10"/>
+    </linearGradient>
+  </defs>
+  <path d="M 100 30 C 60 30 40 80 50 130 C 60 170 90 175 100 175 C 110 175 140 170 150 130 C 160 80 140 30 100 30 Z" fill="url(#mangoGrad)"/>
+  <path d="M 100 35 C 80 40 70 90 80 140" stroke="#ffedb0" stroke-width="2" fill="none" opacity="0.6"/>
+  <ellipse cx="85" cy="80" rx="20" ry="30" fill="rgba(255,255,255,0.25)"/>
+  <path d="M 95 30 Q 105 15 115 30" stroke="#4a7c2a" stroke-width="4" fill="none"/>
+</svg>

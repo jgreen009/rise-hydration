@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1a3050"/>
+      <stop offset="60%" stop-color="#081020"/>
+      <stop offset="100%" stop-color="#020408"/>
+    </radialGradient>
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="rgba(180,80,80,0.4)"/>
+      <stop offset="100%" stop-color="rgba(180,80,80,0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <rect width="1920" height="1080" fill="url(#centerGlow)"/>
+  <g opacity="0.3" fill="rgba(255,255,255,0.6)">
+    <circle cx="200" cy="300" r="4"/>
+    <circle cx="400" cy="150" r="2"/>
+    <circle cx="600" cy="400" r="3"/>
+    <circle cx="1500" cy="200" r="4"/>
+    <circle cx="1700" cy="500" r="2"/>
+    <circle cx="300" cy="800" r="3"/>
+    <circle cx="1600" cy="900" r="3"/>
+    <circle cx="1200" cy="150" r="2"/>
+    <circle cx="800" cy="950" r="3"/>
+  </g>
+  <g opacity="0.6">
+    <ellipse cx="960" cy="540" rx="180" ry="60" fill="rgba(120,180,255,0.2)"/>
+    <ellipse cx="960" cy="540" rx="120" ry="40" fill="rgba(180,80,80,0.3)"/>
+  </g>
+</svg>

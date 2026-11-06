@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="blueGrad" cx="40%" cy="40%">
+      <stop offset="0%" stop-color="#80c0ff"/>
+      <stop offset="60%" stop-color="#1e60ff"/>
+      <stop offset="100%" stop-color="#0a2c8c"/>
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="115" r="50" fill="url(#blueGrad)"/>
+  <circle cx="80" cy="100" r="12" fill="rgba(255,255,255,0.4)"/>
+  <circle cx="100" cy="115" r="3" fill="#001a4d" opacity="0.5"/>
+</svg>

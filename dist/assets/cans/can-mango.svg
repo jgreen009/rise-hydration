@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 1500" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <clipPath id="canBody">
+      <path d="M 300 1110 C 300 1145, 460 1150, 505 1150 C 520 1148, 544 1148, 550 1135 L 550 374 C 550 362, 540 356, 528 355 C 531 352, 525 349, 516 348 C 460 347, 350 349, 300 356 C 250 349, 140 347, 84 348 C 75 349, 69 352, 72 355 C 60 356, 50 362, 50 374 L 50 1135 C 50 1140, 52 1148, 54 1148 C 56 1148, 80 1148, 95 1150 C 140 1150, 300 1145, 300 1110 Z"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#canBody)">
+    <rect x="0" y="0" width="600" height="1500" fill="#111111"/>
+    <text x="300" y="430" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600" font-size="18" fill="#FF9A1F" letter-spacing="6">HYDRATE. FUEL. ELEVATE.</text>
+    <text x="300" y="555" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="900" font-size="150" fill="#ffffff" letter-spacing="-4">RISE</text>
+    <text x="300" y="600" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="300" font-size="20" fill="#ffffff" opacity="0.6" letter-spacing="10">HYDRATION</text>
+    <line x1="160" y1="635" x2="245" y2="635" stroke="#ffffff" stroke-width="1" opacity="0.25"/>
+    <circle cx="260" cy="635" r="2.5" fill="#FF9A1F" opacity="0.9"/>
+    <circle cx="300" cy="635" r="3.5" fill="#FF9A1F"/>
+    <circle cx="340" cy="635" r="2.5" fill="#FF9A1F" opacity="0.9"/>
+    <line x1="355" y1="635" x2="440" y2="635" stroke="#ffffff" stroke-width="1" opacity="0.25"/>
+    <text x="300" y="730" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="900" font-size="76" fill="#FF9A1F" letter-spacing="1">MANGO</text>
+    <text x="300" y="770" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="400" font-size="16" fill="#ffffff" opacity="0.7" letter-spacing="4">Citrus · Passion · Turmeric</text>
+    <g transform="translate(300 820)">
+      <circle cx="-70" cy="0" r="14" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.3"/>
+      <path d="M-70-5 Q-70-14 -64-14 Q-58-14 -58-5 Q-58 4 -64 9" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
+      <text x="0" y="28" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="500" font-size="13" fill="#ffffff" opacity="0.6" letter-spacing="2">ELECTROLYTES</text>
+      <circle cx="0" cy="0" r="14" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.3"/>
+      <path d="M-5-9 L5-2 L0-2 L5 9" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
+      <text x="0" y="28" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="500" font-size="13" fill="#ffffff" opacity="0.6" letter-spacing="2" transform="translate(70,0)">ENERGY</text>
+      <circle cx="70" cy="0" r="14" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.3"/>
+      <path d="M-5-9 L5-9 L5-2 L-5-2 L-5 5 L5 5" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
+      <text x="0" y="28" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="500" font-size="13" fill="#ffffff" opacity="0.6" letter-spacing="2" transform="translate(140,0)">VITAMINS</text>
+    </g>
+    <text x="300" y="900" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="700" font-size="16" fill="#ffffff" opacity="0.85" letter-spacing="2">NO SUGAR  ·  NO CRASH</text>
+    <text x="300" y="940" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="400" font-size="14" fill="#ffffff" opacity="0.5" letter-spacing="2">12 FL OZ (355 ML)</text>
+    <text x="300" y="1050" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600" font-size="17" fill="#ffffff" opacity="0.85" letter-spacing="4">ELECTROLYTES · VITAMINS</text>
+    <text x="300" y="1080" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="400" font-size="14" fill="#ffffff" opacity="0.6" letter-spacing="2">ZERO SUGAR · NATURAL</text>
+  </g>
+  <g clip-path="url(#canBody)" opacity="0.5">
+    <g fill="rgba(255,255,255,0.35)">
+      <ellipse cx="140" cy="440" rx="3" ry="5"/>
+      <ellipse cx="160" cy="560" rx="2" ry="4"/>
+      <ellipse cx="130" cy="680" rx="3" ry="6"/>
+      <ellipse cx="155" cy="800" rx="2" ry="4"/>
+      <ellipse cx="140" cy="920" rx="3" ry="5"/>
+      <ellipse cx="165" cy="1040" rx="2" ry="4"/>
+    </g>
+    <g fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="1">
+      <ellipse cx="140" cy="440" rx="5" ry="8"/>
+      <ellipse cx="130" cy="680" rx="6" ry="10"/>
+      <ellipse cx="140" cy="920" rx="5" ry="8"/>
+    </g>
+  </g>
+  <g>
+    <ellipse cx="300" cy="351" rx="214" ry="14" fill="url(#topLid)"/>
+    <ellipse cx="300" cy="351" rx="190" ry="8" fill="none" stroke="#9a9aa4" stroke-width="1" opacity="0.6"/>
+    <circle cx="190" cy="350" r="4.5" fill="#5a5a62"/>
+    <circle cx="190" cy="349" r="3" fill="#bcbcc4"/>
+  </g>
+  <g transform="translate(190 345)">
+    <ellipse cx="55" cy="5" rx="52" ry="4" fill="rgba(0,0,0,0.4)"/>
+    <path d="M 0 -1 Q 8 -8 55 -8 Q 100 -8 106 -1 Q 108 2 104 5 L 55 5 L 4 5 Q -1 3 0 -1 Z" fill="#d0d0d8" stroke="#6a6a72" stroke-width="0.6"/>
+    <ellipse cx="78" cy="-1" rx="5" ry="2.5" fill="#3a3a44"/>
+    <path d="M 7 -5 Q 55 -8 100 -5" stroke="rgba(255,255,255,0.4)" stroke-width="0.6" fill="none"/>
+  </g>
+  <g>
+    <ellipse cx="300" cy="1143" rx="248" ry="5" fill="#909098"/>
+    <ellipse cx="300" cy="1141" rx="240" ry="3" fill="#bcbcc4"/>
+    <ellipse cx="300" cy="1140" rx="230" ry="2" fill="#6a6a72"/>
+  </g>
+  <g>
+    <ellipse cx="300" cy="1148" rx="200" ry="3" fill="#3a3a44"/>
+    <ellipse cx="300" cy="1148" rx="140" ry="1.5" fill="#1a1a22"/>
+  </g>
+  <defs>
+    <radialGradient id="topLid" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#f8f8fb"/>
+      <stop offset="55%" stop-color="#bcbcc4"/>
+      <stop offset="100%" stop-color="#6a6a72"/>
+    </radialGradient>
+  </defs>
+</svg>

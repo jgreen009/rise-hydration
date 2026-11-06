@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="berryGrad" cx="40%" cy="40%">
+      <stop offset="0%" stop-color="#e82935"/>
+      <stop offset="60%" stop-color="#a01020"/>
+      <stop offset="100%" stop-color="#5a0610"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="110" r="55" fill="url(#berryGrad)"/>
+  <circle cx="80" cy="95" r="15" fill="rgba(255,255,255,0.3)"/>
+  <path d="M 100 55 L 95 75 L 110 70 Z M 115 65 L 108 82 L 122 78 Z" fill="#2d5016" opacity="0.9"/>
+  <circle cx="100" cy="115" r="3" fill="#3a0510" opacity="0.4"/>
+</svg>

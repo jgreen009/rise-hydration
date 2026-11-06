@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="citrusSlice" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffeb99"/>
+      <stop offset="60%" stop-color="#ffd700"/>
+      <stop offset="100%" stop-color="#ffb000"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="80" fill="url(#citrusSlice)" stroke="#fff5b8" stroke-width="4"/>
+  <circle cx="100" cy="100" r="70" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.6"/>
+  <g stroke="#ffffff" stroke-width="1" opacity="0.6" fill="none">
+    <line x1="100" y1="30" x2="100" y2="170"/>
+    <line x1="30" y1="100" x2="170" y2="100"/>
+    <line x1="50" y1="50" x2="150" y2="150"/>
+    <line x1="150" y1="50" x2="50" y2="150"/>
+  </g>
+  <circle cx="100" cy="100" r="10" fill="#ffffff" opacity="0.7"/>
+</svg>
